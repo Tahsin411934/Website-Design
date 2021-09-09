@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website css and html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+   <div class="nav">
+ <ul>
+   <li> <a href=""> Home </a></li>
+   <li> <a href=""> about </a></li>
+   <li> <a href=""> project </a>
+ <ul>
+   <li> <a href=""> HTML </a></li>
+   <li> <a href=""> css </a></li>
+   <li> <a href="">   C </a></li> 
+   <li> <a href=""> C++ </a></li>
+   <li> <a href=""> JAVA </a></li>
+   <li> <a href=""> Game </a></li> 
+ </ul>
+                
+ </li>
+   <li> <a href=""> protfolio </a></li>
+   <li> <a href=""> book </a></li>
+ <ul>
+   <li> <a href=""> Islamic Book </a></li>
+   <li> <a href=""> Text Book </a></li>
+   <li> <a href=""> Note </a></li> 
+ </ul>
+  </li>
+   <li> <a href=""> artical </a></li>
+ </ul>
+ </div>
+   <div class="banner">
+    <div class="banner-text">
+      <p>coin by<h1>Abrar Fahim</h1></p>
+         <div class="log-in">
+              <h4>.</h4>
+         <button type="submit">Log In</button>
+   </div>
+        </div>
+    </div>
+    <div class="about-section">
+        <div class="title">
+         <p>&nbsp &nbsp; &nbsp; &nbump;&nbsp &nbsp Gmail: 
+      abrarfahimtasin@gmail.com
+      &nbsp; &nbsp connect:**************</p>
+  </div>
+   <div class="about">
+    <div class="raw">
+       <div class="col">
+      <div class="image">
+       <img src="img/fa.jpg" alt="">
+   </div>
+ </div>
+ <div class="col"> 
+  <div class="text">
+   <h2><p>&#127463;&#127465;</p></h2> 
+  <h1>About Us</h1>
+  <blockquote></blockquote>
+<h2>
+  Transform higher education  </h2>
+ <h4>Open Library is an open project: the software is open,
+    the data are open, the documentation is open, and we
+    welcome your contribution. Whether you fix a typo,add 
+    a book, or write a widget--it's all welcome. We have
+    a small team of fantastic  programmers who have
+   accomplished a lot, but we can't do it alone!<br> <br>
+   One web page for every book ever published. It's a
+   lofty but achievable goal. <br> <br>To  bui
+ Library, we need hundreds of millions of book records,
+ a wiki interface, and lots of people who are willing
+to contribute their .</h4>
+            </div>                                          
+         </div> 
+        </div>
+    </div> 
+    </div>
+    
+    <div class="service">
+            <div class="ser">
+                <p>service</p>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
+
+
+
+
+
+      
+          
+             
+                    
+                                      css code:
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width:960px;
+    height: auto;
+    margin: 0 auto;
+}
+.nav{
+    width: 960px;
+    height: auto;
+    background: black;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a {
+display: block; 
+padding: 20px 35px;
+font-size: 20px;
+font-weight: bold;
+color: aqua;
+text-transform: uppercase;
+text-decoration: none;
+}
+ .nav ul li a:hover{
+     color:black ;
+     background: darkcyan;
+ }
+
+ .nav ul li ul{
+     position: absolute; 
+     background: #000;
+     left: -9999px;
+ }
+ .nav ul li:hover ul{
+    left: 0px;
+}
+.nav ul li ul li {
+    width: 250px;
+    border-bottom: 1px solid #fff;
+}
+.banner{
+    background-image: url(website.jpg) ;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-text{
+    padding: 205px 80px ;
+}
+.banner-text h1{
+    text-align: left;
+    color:black;
+    text-indent: 70px;
+    font-size: 50px;
+    text-indent: 30px;
+    top: 50%;
+
+    
+}
+.log-in{
+    padding: 100px 0px;
+    padding: 2px 0px 0px 2px;
+    text-align: right;
+    border: #000;
+}
+.log-in h4{
+    color:#ffd700;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 30px 30px;
+}
+.log-in button{
+    background:darkcyan;
+   font-size: 20px;
+   font-weight: bolder;
+   text-transform: uppercase;
+   padding: 10px ;
+   color: black;
+
+}
+.log-in button:hover{
+    color: black;
+    background: rgb(9, 202, 19);
+}
+.image{
+   width: 520px;
+   height: auto;
+   margin: 5px;
+   box-shadow: 1px px 1px 0px black;
+}
+.text{
+    width: 420px;
+    height: auto;
+}
+.text h1{
+    padding: 0px 0px 0px 96px;
+    color: blue;
+}
+.text h2{
+    padding: 20px 20px 20px 20px;
+    
+}
+.raw{
+    overflow: auto;
+}
+.col{
+    float: left;
+    
+}
+.about-section{
+    background: rgb(209, 176, 176);
+.title {
+    text-align: center;
+    padding: 20px 60px 10px 10px ;
+}
+.text h4{
+    padding: 0;
+    margin: 0;
+}
+.service-section{
+    background: rgb(77, 19, 110);
+}
+.service{
+    width: 220px;
+    height: auto;
+}
+.ab{
+    width: 260px;
+    height: auto;
+}
+.service{
+    background-color:blue;
+}
+
+
