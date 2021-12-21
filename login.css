@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.all{
+    
+    height: 225px;
+    width: 280px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 8px 8px 50px #000;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.user{
+    background: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    width: 100px;
+}
+.user1{
+    background: none;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    color: white;
+    border: 1px solid teal;
+}
+.user1:hover{
+    color: yellowgreen;
+}
+::placeholder{
+    color: white;
+}
