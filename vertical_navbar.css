@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+ul{
+    color: blanchedalmond;
+    
+}
+li{
+    display: block;
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 8px 16px;
+    text-style:none;
+
+}
+.a{
+    background-color: green;
+}
+li:hover:not(.a){ 
+    color: green;
+    background-color: white;
+}
